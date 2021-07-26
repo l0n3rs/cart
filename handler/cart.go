@@ -1,10 +1,10 @@
 package handler
 import (
 	"context"
-	"cart/domain/model"
-	"cart/domain/service"
-	cart "cart/proto/cart"
-	"cart/common"
+	"github.com/l0n3rs/cart/domain/model"
+	"github.com/l0n3rs/cart/domain/service"
+	cart "github.com/l0n3rs/cart/proto/cart"
+	"github.com/l0n3rs/cart/common"
 )
 type Cart struct{
      CartDataService service.ICartDataService
